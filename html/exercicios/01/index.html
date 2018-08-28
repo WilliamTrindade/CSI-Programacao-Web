@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora</title>
+	</head>
+
+	<body>
+		<form action="calcula.php" method="post">
+			<label for="valor1">VALOR 1</label>
+			<input type="number" name="valor1" id="valor1"><br><br>
+
+			<label for="valor2">VALOR 2</label>
+			<input type="number" name="valor2" id="valor2"><br><br>
+
+			<fieldset>
+				<legend>OPERAÇÃO</legend>
+				
+				<input type="radio" name="operacao" id="adicao" value= "+">
+				<label for="adicao">Adição</label>
+
+				<input type="radio" name="operacao" id="subtracao" value="-">
+				<label for="subtracao">Subtração</label>
+
+				<input type="radio" name="operacao" id="multiplicacao" value="*">
+				<label for="multiplicacao">Multiplicação</label>
+
+				<input type="radio" name="operacao" id="divisao" value="/">
+				<label for="divisao">Divisão</label>
+			</fieldset><br>
+			<input type="submit" value="Calvular">
+		</form>
+	</body>
+</html>

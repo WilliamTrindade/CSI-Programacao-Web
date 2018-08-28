@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Idade Atual</title>
+	</head>
+	<body>
+		<div>
+			<form method="post" action="calcularIdade.php">
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome"><br/><br/>
+				<label for="ano">Ano de Nascimento:</label>
+				<input type="number" name="ano" id="ano">
+				
+				<fieldset>
+					<legend> Sexo </legend>
+					<input type="radio" name="sexo" id="masc" value="homem">
+					<label for="masc"> Masculino </label><br>
+					
+					<input type="radio" name="sexo" id="fem" value="mulher">
+					<label for="fem"> Feminino </label><br>
+					
+				</fieldset><br>
+
+				<input type="submit" value="Calcular Idade">
+			</form>
+		</div>
+	</body>
+</html>
