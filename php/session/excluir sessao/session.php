@@ -6,6 +6,9 @@
 	//cria sessão
 	$_SESSION['nome'] = 'Fulano da Silva';
 	$_SESSION['senha'] = '1234a';
+        //exclui a sessão
+        session_destroy();
+
 
 
 ?>
