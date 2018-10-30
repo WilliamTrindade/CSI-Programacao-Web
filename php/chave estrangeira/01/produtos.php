@@ -24,7 +24,7 @@
 			  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			    <ul class="navbar-nav">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="">Produtos <span class="sr-only">(Página Atual)</span></a>
+			        <a class="nav-link" href=""> Produtos <span class="sr-only">(Página Atual)</span> </a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="produtosSelecionados.php">Produtos Selecionado</a>
@@ -51,9 +51,11 @@
 					    </tr>
 					  </thead>
 					  <tbody>
+	
 					  	<?php 
+					  	
 					  		include 'crudVenda.php';
-					  		$resultado = mostrarProdutos();
+					  		$resultado = mostrarProdutos(1);
 
 					  		if($resultado) {
 
@@ -71,6 +73,8 @@
 					  				";
 
 					  			}
+					  		}
+					  			
 					  	?>
 
 					  </tbody>
@@ -85,5 +89,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
-
 </html>

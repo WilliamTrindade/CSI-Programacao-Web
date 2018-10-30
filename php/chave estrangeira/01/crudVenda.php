@@ -17,7 +17,7 @@
 		fechar();
 	}
 
-	function mostrarProdutos ($codigoCliente, $codigoProduto) {
+	function mostrarProdutos ($codigoCliente) {
 		conectar();
 		$resultado = query("
 			SELECT codigoProduto, descricao FROM produto WHERE $codigoCliente 
