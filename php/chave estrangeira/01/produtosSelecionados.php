@@ -54,6 +54,7 @@
 					  	<?php 
 
 					  		include 'crudVenda.php';
+
 					  		$resultado = mostrarProdutosSelecionados(1);
 
 					  		if($resultado) {

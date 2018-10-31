@@ -11,7 +11,6 @@
 		$codigoProduto = $_GET['codigo'];
 		inserirVenda(1, $codigoProduto);
 		header("Location: produtos.php");
-
 	}
 
 ?>
