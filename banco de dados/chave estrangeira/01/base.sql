@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 30-Out-2018 às 18:28
+-- Generation Time: 30-Out-2018 às 18:29
 -- Versão do servidor: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -52,14 +52,14 @@ INSERT INTO `cliente` (`codigoCliente`, `nome`) VALUES
 
 CREATE TABLE `produto` (
   `codigoProduto` int(4) NOT NULL,
-  `descicao` varchar(50) NOT NULL
+  `descricao` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `produto`
 --
 
-INSERT INTO `produto` (`codigoProduto`, `descicao`) VALUES
+INSERT INTO `produto` (`codigoProduto`, `descricao`) VALUES
 (1, 'Arroz'),
 (2, 'Feijão'),
 (3, 'Café');
