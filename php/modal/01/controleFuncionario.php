@@ -28,7 +28,7 @@
 	{
 		$codigo = $_POST["codigo"];
 		modalDesejaExcluir($codigo);
-	}elseif ($opcao == "EcluirSim")
+	}elseif ($opcao == "ExcluirSim")
 	{
 		$codigo = $_POST["codigo"];
 		excluirFuncionario($codigo);

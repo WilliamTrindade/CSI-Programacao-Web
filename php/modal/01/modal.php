@@ -41,7 +41,7 @@
 			</script>
 		<?php 
 			}
-			function modalDesejaExcluir() {
+			function modalDesejaExcluir($codigo) {
 		?>
 			<div class="modal" tabindex="-1" role="dialog" id="telaModalExcluir" data-backdrop="static">
 			  <div class="modal-dialog" role="document">
